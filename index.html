@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- <img src="./img/banner.jpg"> -->
+        <img alt="Banner Image" src="./img/banner2.png">        
+        <h1>Member Registration</h1>
+    </header>
+
+    <div id="userInput">
+        <form action="#" id="form">
+            <div class="input">
+                <label for="firstName">First Name: <input type="text" id="fName"></label>
+                <p id="fNameErrorMsg"></p>
+            </div>
+            <br>
+            <div class="input">
+                <label for="lastName">Last Name: <input type="text" id="lName"></label>
+                <p id="lNameErrorMsg"></p>
+            </div>
+            <br>
+            <div class="input">
+                <label for="address">Address: <input type="text" id="address"></label>
+                <p id="addressErrorMsg"></p>
+            </div>
+            <br>
+            <div class="input">
+                <label for="city">City: <input type="text" id="city"></label>
+                <p id="cityErrorMsg"></p>
+            </div>
+
+            <br>
+            <div class="input">
+                <label for="postalCode">Postal Code: <input type="text" id="postalCode"></label>
+                <p id="postalCodeErrorMsg"></p>
+            </div>
+            <br>
+            <div class="input">
+                <label for="province">Province: <input type="text" id="province"></label>
+                <p id="provinceErrorMsg"></p>
+            </div>
+            <br>
+            <div class="input">
+                <label for="age">Age: <input type="number" id="age"></label>
+                <p id="ageErrorMsg"></p>
+            </div>
+            <br>
+            <div class="input">
+                <label for="password">Password: <input type="password" id="password"></label>
+                <p id="passwordErrorMsg"></p>
+            </div>
+            <br>
+            <div class="input">
+                <label for="confirmPassword">Confirm Password: <input type="password" id="confirmPassword"></label>
+                <p id="confirmPasswordErrorMsg"></p>
+            </div>
+            <br>
+            <div class="input">
+                <label for="email">Email: <input type="email" id="email"></label>
+                <p id="emailErrorMsg"></p>
+            </div>
+            <br>
+
+            <div id="buttons">
+                <button type="submit" id="register" value="Submit">Register Now</button>
+                <button type="reset" id="clearForm" value="Reset">Clear Form</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="result">
+        <h3>Result</h3>
+        <br>
+        <div class="outputResult">
+        <h4>User First Name: </h4>
+            <p id="fNameResult"></p>
+        </div>
+
+        <div class="outputResult">
+            <h4>User Last Name:</h4>
+            <p id="lNameResult"></p>
+        </div>
+        <div class="outputResult">
+            <h4>User Address:</h4>
+            <p id="addressResult"></p>
+        </div>
+        <div class="outputResult">
+            <h4>City: </h4>
+            <p id="cityResult"></p>
+        </div>
+        <div class="outputResult">
+            <h4>Postal Code: </h4>
+            <p id="postalCodeResult"></p>
+        </div>
+        <div class="outputResult">
+            <h4>Province: </h4>
+            <p id="provinceResult"></p>
+        </div>
+        <div class="outputResult">
+            <h4>Age: </h4>
+            <p id="ageResult"></p>
+        </div>
+        <div class="inputResult">
+            <h4>Password: </h4>
+            <p id="passwordResult"></p>
+        </div>
+        <div class="outputResult">
+            <h4>Confirm Password: </h4>
+            <p id="confirmPasswordResult"></p>
+        </div>
+        <div class="outputResult">
+            <h4>Email: </h4>
+            <p id="emailResult"></p>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>&copy;&nbsp;Copyright by Adriano Melquiades - COMP125 - Client-Side Web Development</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
